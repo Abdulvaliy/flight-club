@@ -1,13 +1,13 @@
 import smtplib
 from twilio.rest import Client
 
-TWILIO_SID = "AC2a96c4c20b80bffcdc91918f91b40e44"
-TWILIO_AUTH_TOKEN = "1509c2ff121c95cbe7db78d7be175e79"
-TWILIO_VIRTUAL_NUMBER = "+18582016787"
-TWILIO_VERIFIED_NUMBER = "+998909124292"
-MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com"
-MY_EMAIL = "abdulvali.pythoner@gmail.com"
-MY_PASSWORD = "qwerty1234???"
+TWILIO_SID = "your twilio sid"
+TWILIO_AUTH_TOKEN = "your twilio auth token"
+TWILIO_VIRTUAL_NUMBER = "your twilio virtual number"
+TWILIO_VERIFIED_NUMBER = "your number"
+MAIL_PROVIDER_SMTP_ADDRESS = "smtp.gmail.com" #or any other smtp for your mail address
+MY_EMAIL = "your account login"
+MY_PASSWORD = "and password"
 
 class NotificationManager:
 
