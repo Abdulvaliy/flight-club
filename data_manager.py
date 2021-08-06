@@ -1,7 +1,7 @@
 import requests
 
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/8a20e2613f692fb9377d7f79924b6f59/flightDeals/prices"
-SHEETY_USERS_ENDPOINT = "https://api.sheety.co/8a20e2613f692fb9377d7f79924b6f59/flightDeals/users"
+SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/your_google_sheet_file_link/flightDeals/prices"
+SHEETY_USERS_ENDPOINT = "https://api.sheety.co/your_google_sheet_file_link/flightDeals/users"
 
 class DataManager:
 
